@@ -2,11 +2,14 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
+my $pm = 'lib/File/Versions.pm';
 my $repo = 'https://github.com/benkasminbullock/File-Versions';
 
 WriteMakefile (
     NAME => 'File::Versions',
-    VERSION_FROM => 'lib/File/Versions.pm',
+    ABSTRACT_FROM => $pm,
+    AUTHOR => 'Ben Bullock <bkb@cpan.org>',
+    VERSION_FROM => $pm,
     PREREQ_PM => {
         'List::Util' => 0,
         'Test::More' => 0,

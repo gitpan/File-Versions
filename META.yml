@@ -1,7 +1,7 @@
 ---
-abstract: unknown
+abstract: 'Emacs-like versioned file names'
 author:
-  - unknown
+  - 'Ben Bullock <bkb@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
@@ -23,4 +23,4 @@ requires:
 resources:
   bugtracker: https://github.com/benkasminbullock/File-Versions/issues
   repository: https://github.com/benkasminbullock/File-Versions
-version: 0.05
+version: 0.06
