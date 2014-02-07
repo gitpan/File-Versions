@@ -7,6 +7,7 @@ my $repo = 'https://github.com/benkasminbullock/File-Versions';
 
 WriteMakefile (
     NAME => 'File::Versions',
+    LICENSE => 'perl',
     ABSTRACT_FROM => $pm,
     AUTHOR => 'Ben Bullock <bkb@cpan.org>',
     VERSION_FROM => $pm,
@@ -20,4 +21,5 @@ WriteMakefile (
             bugtracker => "$repo/issues",
         },
     },
+    MIN_PERL_VERSION => '5.006001',
 );
